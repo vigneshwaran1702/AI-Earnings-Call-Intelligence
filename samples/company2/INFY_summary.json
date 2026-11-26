@@ -1,0 +1,94 @@
+{
+  "company": "Infosys",
+  "quarter": "Q3 FY26",
+  "call_date": "2026-01-15",
+  "executive_summary": "Infosys delivered a bullish Q3 FY26 performance with \u20b941,764 Cr (+6.1% YoY) and \u20b96,890 Cr (+7.5% YoY).",
+  "financial_highlights": [
+    {
+      "metric": "Revenue",
+      "value": "\u20b941,764 Cr",
+      "change": "+6.1% YoY",
+      "source_quote": "Broad-based growth across Financial Services and Manufacturing drove \u20b941,764 Cr revenue."
+    },
+    {
+      "metric": "Operating Margin",
+      "value": "21.3%",
+      "change": "+20 bps QoQ",
+      "source_quote": "Project Maximus delivered operating margin of 21.3%."
+    },
+    {
+      "metric": "Large Deal TCV",
+      "value": "$2.5B",
+      "change": "62% net new",
+      "source_quote": "We signed 21 large deals totaling $2.5 billion, with 62% net new."
+    },
+    {
+      "metric": "Free Cash Flow",
+      "value": "$1.1B",
+      "change": "+18% YoY",
+      "source_quote": "Free cash flow generation remained robust at $1.1 billion."
+    }
+  ],
+  "sections": [
+    {
+      "title": "1. Executive Summary",
+      "content": "Infosys delivered a bullish Q3 FY26 performance with \u20b941,764 Cr (+6.1% YoY) and \u20b96,890 Cr (+7.5% YoY).",
+      "evidence": [
+        "Broad-based growth across Financial Services and Manufacturing drove \u20b941,764 Cr revenue.",
+        "Project Maximus delivered operating margin of 21.3%."
+      ]
+    },
+    {
+      "title": "2. Financial Performance",
+      "content": "Revenue: \u20b941,764 Cr (+6.1% YoY) | PAT: \u20b96,890 Cr (+7.5% YoY) | Margin: 21.3% Operating Margin.",
+      "evidence": [
+        "Broad-based growth across Financial Services and Manufacturing drove \u20b941,764 Cr revenue.",
+        "Project Maximus delivered operating margin of 21.3%.",
+        "We signed 21 large deals totaling $2.5 billion, with 62% net new.",
+        "Free cash flow generation remained robust at $1.1 billion."
+      ]
+    },
+    {
+      "title": "3. Segmental & Operational Drivers",
+      "content": "Core verticals showed steady momentum with strong order/customer traction during Q3 FY26.",
+      "evidence": [
+        "Broad-based growth across Financial Services and Manufacturing drove \u20b941,764 Cr revenue."
+      ]
+    },
+    {
+      "title": "4. Management Guidance & Outlook",
+      "content": "FY26 constant-currency revenue growth guidance raised to 4.5%\u20135.0% on strong Topaz AI adoption.",
+      "evidence": [
+        "FY26 constant-currency revenue growth guidance raised to 4.5%\u20135.0% on strong Topaz AI adoption."
+      ]
+    },
+    {
+      "title": "5. Capital Allocation & Cash Flow",
+      "content": "Healthy cash generation and disciplined balance-sheet management continued through the quarter.",
+      "evidence": [
+        "Free cash flow generation remained robust at $1.1 billion."
+      ]
+    },
+    {
+      "title": "6. Key Risks & Headwinds",
+      "content": "Macro uncertainty in telecom and hi-tech verticals; Cross-currency headwinds impacting reported USD growth",
+      "evidence": [
+        "Macro uncertainty in telecom and hi-tech verticals",
+        "Cross-currency headwinds impacting reported USD growth"
+      ]
+    },
+    {
+      "title": "7. Analyst Q&A Takeaways",
+      "content": "Analysts focused on margin durability, demand recovery, and medium-term capital efficiency.",
+      "evidence": [
+        "Management reiterated focus on balancing growth investments with free cash flow."
+      ]
+    }
+  ],
+  "sentiment": "Bullish",
+  "key_risks": [
+    "Macro uncertainty in telecom and hi-tech verticals",
+    "Cross-currency headwinds impacting reported USD growth"
+  ],
+  "management_guidance": "FY26 constant-currency revenue growth guidance raised to 4.5%\u20135.0% on strong Topaz AI adoption."
+}

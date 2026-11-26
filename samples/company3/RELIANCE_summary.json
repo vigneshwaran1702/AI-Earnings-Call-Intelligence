@@ -1,0 +1,94 @@
+{
+  "company": "Reliance Industries",
+  "quarter": "Q3 FY26",
+  "call_date": "2026-01-22",
+  "executive_summary": "Reliance Industries delivered a bullish Q3 FY26 performance with \u20b92,48,500 Cr (+7.8% YoY) and \u20b921,350 Cr (+11.5% YoY).",
+  "financial_highlights": [
+    {
+      "metric": "Consolidated Revenue",
+      "value": "\u20b92,48,500 Cr",
+      "change": "+7.8% YoY",
+      "source_quote": "Consolidated revenue reached \u20b92.48 lakh crore, led by Digital Services and Retail."
+    },
+    {
+      "metric": "Consolidated EBITDA",
+      "value": "\u20b944,980 Cr",
+      "change": "+10.4% YoY",
+      "source_quote": "EBITDA crossed \u20b944,980 crore with 18.1% margin."
+    },
+    {
+      "metric": "Jio ARPU",
+      "value": "\u20b9206",
+      "change": "+13.2% YoY",
+      "source_quote": "Jio ARPU rose to \u20b9206 following tariff flow-through and 5G upgrades."
+    },
+    {
+      "metric": "Retail Revenue",
+      "value": "\u20b989,400 Cr",
+      "change": "+9.2% YoY",
+      "source_quote": "Reliance Retail delivered \u20b989,400 crore revenue across 19,100+ stores."
+    }
+  ],
+  "sections": [
+    {
+      "title": "1. Executive Summary",
+      "content": "Reliance Industries delivered a bullish Q3 FY26 performance with \u20b92,48,500 Cr (+7.8% YoY) and \u20b921,350 Cr (+11.5% YoY).",
+      "evidence": [
+        "Consolidated revenue reached \u20b92.48 lakh crore, led by Digital Services and Retail.",
+        "EBITDA crossed \u20b944,980 crore with 18.1% margin."
+      ]
+    },
+    {
+      "title": "2. Financial Performance",
+      "content": "Revenue: \u20b92,48,500 Cr (+7.8% YoY) | PAT: \u20b921,350 Cr (+11.5% YoY) | Margin: 18.1% Consolidated EBITDA Margin.",
+      "evidence": [
+        "Consolidated revenue reached \u20b92.48 lakh crore, led by Digital Services and Retail.",
+        "EBITDA crossed \u20b944,980 crore with 18.1% margin.",
+        "Jio ARPU rose to \u20b9206 following tariff flow-through and 5G upgrades.",
+        "Reliance Retail delivered \u20b989,400 crore revenue across 19,100+ stores."
+      ]
+    },
+    {
+      "title": "3. Segmental & Operational Drivers",
+      "content": "Core verticals showed steady momentum with strong order/customer traction during Q3 FY26.",
+      "evidence": [
+        "Consolidated revenue reached \u20b92.48 lakh crore, led by Digital Services and Retail."
+      ]
+    },
+    {
+      "title": "4. Management Guidance & Outlook",
+      "content": "Jio 5G monetization and New Energy gigafactory commissioning on track for H2 CY26.",
+      "evidence": [
+        "Jio 5G monetization and New Energy gigafactory commissioning on track for H2 CY26."
+      ]
+    },
+    {
+      "title": "5. Capital Allocation & Cash Flow",
+      "content": "Healthy cash generation and disciplined balance-sheet management continued through the quarter.",
+      "evidence": [
+        "Reliance Retail delivered \u20b989,400 crore revenue across 19,100+ stores."
+      ]
+    },
+    {
+      "title": "6. Key Risks & Headwinds",
+      "content": "Global refining margin volatility in O2C segment; High capex cycle in new energy and AI data centers",
+      "evidence": [
+        "Global refining margin volatility in O2C segment",
+        "High capex cycle in new energy and AI data centers"
+      ]
+    },
+    {
+      "title": "7. Analyst Q&A Takeaways",
+      "content": "Analysts focused on margin durability, demand recovery, and medium-term capital efficiency.",
+      "evidence": [
+        "Management reiterated focus on balancing growth investments with free cash flow."
+      ]
+    }
+  ],
+  "sentiment": "Bullish",
+  "key_risks": [
+    "Global refining margin volatility in O2C segment",
+    "High capex cycle in new energy and AI data centers"
+  ],
+  "management_guidance": "Jio 5G monetization and New Energy gigafactory commissioning on track for H2 CY26."
+}

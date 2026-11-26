@@ -1,0 +1,39 @@
+Infosys (INFY) — Q3 FY26 Earnings Conference Call Transcript
+Exchange: NSE | Call Date: 2026-01-15
+====================================================================
+
+1. PARTICIPANTS
+Management: Managing Director & CEO, Chief Financial Officer, Head of Investor Relations
+Analysts: Institutional Equity Research Analysts (Domestic & Global Funds)
+
+2. OPENING REMARKS & FINANCIAL PERFORMANCE
+Good evening everyone, and welcome to the Infosys Q3 FY26 earnings conference call.
+We are pleased to report another resilient quarter driven by disciplined execution and client trust.
+
+Key Financial Metrics:
+  - Revenue: ₹41,764 Cr (+6.1% YoY) — "Broad-based growth across Financial Services and Manufacturing drove ₹41,764 Cr revenue."
+  - Operating Margin: 21.3% (+20 bps QoQ) — "Project Maximus delivered operating margin of 21.3%."
+  - Large Deal TCV: $2.5B (62% net new) — "We signed 21 large deals totaling $2.5 billion, with 62% net new."
+  - Free Cash Flow: $1.1B (+18% YoY) — "Free cash flow generation remained robust at $1.1 billion."
+
+3. SEGMENTAL & OPERATIONAL HIGHLIGHTS
+Across our core operating segments, demand visibility improved sequentially. Digital transformation,
+operational efficiency, and disciplined capital allocation remained central to our strategy during
+Q3 FY26. Management highlighted strong customer retention and healthy pipeline conversion.
+
+4. MANAGEMENT GUIDANCE & OUTLOOK
+FY26 constant-currency revenue growth guidance raised to 4.5%–5.0% on strong Topaz AI adoption.
+
+5. KEY RISKS & WATCHLIST
+  - Macro uncertainty in telecom and hi-tech verticals
+  - Cross-currency headwinds impacting reported USD growth
+
+6. Q&A HIGHLIGHTS
+Analyst (Motilal Oswal): Could you elaborate on margin sustainability heading into Q4 and FY27?
+CFO: Our margin trajectory is supported by productivity levers, utilization, and favorable mix.
+We remain focused on balancing growth investments with healthy free cash flow generation.
+
+Analyst (Morgan Stanley): How is the demand environment in key international and domestic markets?
+CEO: Client conversations are constructive, with larger multi-year programs moving from pilot to scale.
+
+[End of Transcript — Finosauras Intelligence Sample Dataset]

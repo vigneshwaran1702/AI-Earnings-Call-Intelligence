@@ -1,0 +1,94 @@
+{
+  "company": "TCS",
+  "quarter": "Q3 FY26",
+  "call_date": "2026-01-12",
+  "executive_summary": "TCS delivered a bullish Q3 FY26 performance with \u20b965,210 Cr (+5.6% YoY) and \u20b912,480 Cr (+8.2% YoY).",
+  "financial_highlights": [
+    {
+      "metric": "Revenue",
+      "value": "\u20b965,210 Cr",
+      "change": "+5.6% YoY",
+      "source_quote": "Q3 revenue grew 5.6% YoY to \u20b965,210 crore, led by BFSI and Consumer Business."
+    },
+    {
+      "metric": "Operating Margin",
+      "value": "24.8%",
+      "change": "+40 bps QoQ",
+      "source_quote": "Disciplined pyramid optimization helped expand operating margin to 24.8%."
+    },
+    {
+      "metric": "Net Profit (PAT)",
+      "value": "\u20b912,480 Cr",
+      "change": "+8.2% YoY",
+      "source_quote": "Net income stood at \u20b912,480 crore with strong cash conversion."
+    },
+    {
+      "metric": "Total Contract Value (TCV)",
+      "value": "$10.2B",
+      "change": "+12% YoY",
+      "source_quote": "Order book TCV reached $10.2 billion in Q3, including two mega-deals."
+    }
+  ],
+  "sections": [
+    {
+      "title": "1. Executive Summary",
+      "content": "TCS delivered a bullish Q3 FY26 performance with \u20b965,210 Cr (+5.6% YoY) and \u20b912,480 Cr (+8.2% YoY).",
+      "evidence": [
+        "Q3 revenue grew 5.6% YoY to \u20b965,210 crore, led by BFSI and Consumer Business.",
+        "Disciplined pyramid optimization helped expand operating margin to 24.8%."
+      ]
+    },
+    {
+      "title": "2. Financial Performance",
+      "content": "Revenue: \u20b965,210 Cr (+5.6% YoY) | PAT: \u20b912,480 Cr (+8.2% YoY) | Margin: 24.8% Operating Margin.",
+      "evidence": [
+        "Q3 revenue grew 5.6% YoY to \u20b965,210 crore, led by BFSI and Consumer Business.",
+        "Disciplined pyramid optimization helped expand operating margin to 24.8%.",
+        "Net income stood at \u20b912,480 crore with strong cash conversion.",
+        "Order book TCV reached $10.2 billion in Q3, including two mega-deals."
+      ]
+    },
+    {
+      "title": "3. Segmental & Operational Drivers",
+      "content": "Core verticals showed steady momentum with strong order/customer traction during Q3 FY26.",
+      "evidence": [
+        "Q3 revenue grew 5.6% YoY to \u20b965,210 crore, led by BFSI and Consumer Business."
+      ]
+    },
+    {
+      "title": "4. Management Guidance & Outlook",
+      "content": "Management expects BFSI recovery in North America and sustained GenAI deal pipeline momentum into FY27.",
+      "evidence": [
+        "Management expects BFSI recovery in North America and sustained GenAI deal pipeline momentum into FY27."
+      ]
+    },
+    {
+      "title": "5. Capital Allocation & Cash Flow",
+      "content": "Healthy cash generation and disciplined balance-sheet management continued through the quarter.",
+      "evidence": [
+        "Order book TCV reached $10.2 billion in Q3, including two mega-deals."
+      ]
+    },
+    {
+      "title": "6. Key Risks & Headwinds",
+      "content": "Discretionary IT spending caution in European retail; Wage inflation and visa-related cost pressures in North America",
+      "evidence": [
+        "Discretionary IT spending caution in European retail",
+        "Wage inflation and visa-related cost pressures in North America"
+      ]
+    },
+    {
+      "title": "7. Analyst Q&A Takeaways",
+      "content": "Analysts focused on margin durability, demand recovery, and medium-term capital efficiency.",
+      "evidence": [
+        "Management reiterated focus on balancing growth investments with free cash flow."
+      ]
+    }
+  ],
+  "sentiment": "Bullish",
+  "key_risks": [
+    "Discretionary IT spending caution in European retail",
+    "Wage inflation and visa-related cost pressures in North America"
+  ],
+  "management_guidance": "Management expects BFSI recovery in North America and sustained GenAI deal pipeline momentum into FY27."
+}

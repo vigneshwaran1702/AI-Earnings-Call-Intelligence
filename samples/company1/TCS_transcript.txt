@@ -1,0 +1,39 @@
+TCS (TCS) — Q3 FY26 Earnings Conference Call Transcript
+Exchange: NSE | Call Date: 2026-01-12
+====================================================================
+
+1. PARTICIPANTS
+Management: Managing Director & CEO, Chief Financial Officer, Head of Investor Relations
+Analysts: Institutional Equity Research Analysts (Domestic & Global Funds)
+
+2. OPENING REMARKS & FINANCIAL PERFORMANCE
+Good evening everyone, and welcome to the TCS Q3 FY26 earnings conference call.
+We are pleased to report another resilient quarter driven by disciplined execution and client trust.
+
+Key Financial Metrics:
+  - Revenue: ₹65,210 Cr (+5.6% YoY) — "Q3 revenue grew 5.6% YoY to ₹65,210 crore, led by BFSI and Consumer Business."
+  - Operating Margin: 24.8% (+40 bps QoQ) — "Disciplined pyramid optimization helped expand operating margin to 24.8%."
+  - Net Profit (PAT): ₹12,480 Cr (+8.2% YoY) — "Net income stood at ₹12,480 crore with strong cash conversion."
+  - Total Contract Value (TCV): $10.2B (+12% YoY) — "Order book TCV reached $10.2 billion in Q3, including two mega-deals."
+
+3. SEGMENTAL & OPERATIONAL HIGHLIGHTS
+Across our core operating segments, demand visibility improved sequentially. Digital transformation,
+operational efficiency, and disciplined capital allocation remained central to our strategy during
+Q3 FY26. Management highlighted strong customer retention and healthy pipeline conversion.
+
+4. MANAGEMENT GUIDANCE & OUTLOOK
+Management expects BFSI recovery in North America and sustained GenAI deal pipeline momentum into FY27.
+
+5. KEY RISKS & WATCHLIST
+  - Discretionary IT spending caution in European retail
+  - Wage inflation and visa-related cost pressures in North America
+
+6. Q&A HIGHLIGHTS
+Analyst (Motilal Oswal): Could you elaborate on margin sustainability heading into Q4 and FY27?
+CFO: Our margin trajectory is supported by productivity levers, utilization, and favorable mix.
+We remain focused on balancing growth investments with healthy free cash flow generation.
+
+Analyst (Morgan Stanley): How is the demand environment in key international and domestic markets?
+CEO: Client conversations are constructive, with larger multi-year programs moving from pilot to scale.
+
+[End of Transcript — Finosauras Intelligence Sample Dataset]

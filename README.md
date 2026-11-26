@@ -158,3 +158,14 @@ python -m app.ingestion.test_sources
 | `WS` | `/ws/pipeline` | Real-time WebSocket feed for pipeline events |
 | `GET` | `/docs` | Interactive Swagger API documentation |
 
+---
+
+## Known Limitations
+
+- **Undocumented Exchange Endpoints:** NSE's public announcement endpoint (`/api/corporate-announcements`) is not a guaranteed public developer API; root requests (`https://www.nseindia.com/`) can return `403 Forbidden` or redirect to `nseindia.in`, and attachment hosts may change (`nsearchives.nseindia.in` vs `.com`).
+- **BSE RSS Feed Scope:** BSE's `announcements.xml` feed only exposes the latest announcements rather than a complete historical archive, and some item links point to HTML pages instead of direct PDF files.
+- **Keyword Filtering Precision:** First-pass keyword matching can include analyst-meet invitations or presentations alongside actual earnings-call transcripts until stricter category/title rules are applied.
+- **PDF & OCR Constraints:** Scanned image-only PDFs require an OCR fallback, and very large transcripts must be chunked to fit LLM context limits.
+- **Sample vs. Live AI Mode:** Without a `GEMINI_API_KEY` in `.env`, the platform serves seeded sample datasets (`backend/app/seed.py`) rather than live Gemini-generated summaries.
+
+
