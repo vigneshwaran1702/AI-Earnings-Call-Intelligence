@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pymupdf
+httpx
+python-dotenv
+apscheduler
+pydantic
+python-multipart
+requests
+beautifulsoup4
+lxml
+
