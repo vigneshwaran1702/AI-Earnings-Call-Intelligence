@@ -103,12 +103,11 @@ def get_nse_announcements(days_back: int = 7) -> list[dict[str, Any]]:
             ).strip()
 
             category = (
-                item.get("attchmntFile")
-                and "Transcript"
-                or item.get("an_type")
+                item.get("an_type")
                 or item.get("category")
+                or item.get("smIndustry")
                 or ""
-            )
+            ).strip()
 
             # Attachment URL
             attachment = (
@@ -118,7 +117,7 @@ def get_nse_announcements(days_back: int = 7) -> list[dict[str, Any]]:
             ).strip()
 
             if attachment and not attachment.startswith("http"):
-                attachment = f"https://nsearchives.nseindia.com/corporate/Attachments/{attachment}"
+                attachment = f"https://nsearchives.nseindia.in/corporate/Attachments/{attachment}"
 
             filing_id = (
                 item.get("an_id")

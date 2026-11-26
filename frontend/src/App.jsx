@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Dashboard from "./pages/Dashboard";
 import CompanyDetails from "./pages/CompanyDetails";
 import TranscriptDetails from "./pages/TranscriptDetails";
-import { getCompanies, getHealth, getStats, getTranscripts } from "./services/api";
+import { getCompanies, getHealth, getStats, getTranscripts, triggerPipeline } from "./services/api";
 import { connectPipelineSocket } from "./services/websocket";
 
 export default function App() {
@@ -15,6 +15,17 @@ export default function App() {
   const [companies, setCompanies] = useState([]);
   const [transcripts, setTranscripts] = useState([]);
   const [events, setEvents] = useState([]);
+  const [runningPipeline, setRunningPipeline] = useState(false);
+
+  const handleRunPipeline = async () => {
+    setRunningPipeline(true);
+    try {
+      await triggerPipeline(5);
+      await loadData();
+    } finally {
+      setRunningPipeline(false);
+    }
+  };
 
   const loadData = useCallback(async () => {
     try {
@@ -62,6 +73,8 @@ export default function App() {
             apiOnline={apiOnline}
             wsStatus={wsStatus}
             onRefresh={loadData}
+            onRunPipeline={handleRunPipeline}
+            runningPipeline={runningPipeline}
           />
           <main className="flex-1 p-6 overflow-y-auto">
             <Routes>

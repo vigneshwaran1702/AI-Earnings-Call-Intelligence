@@ -18,8 +18,11 @@ logger = logging.getLogger(__name__)
 
 ALLOWED_HOSTS = {
     "nsearchives.nseindia.com",
+    "nsearchives.nseindia.in",
     "www.nseindia.com",
+    "www.nseindia.in",
     "archives.nseindia.com",
+    "archives.nseindia.in",
     "www.bseindia.com",
     "api.bseindia.com",
     "bseindia.com",

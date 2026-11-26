@@ -91,7 +91,15 @@ def get_stats(db: Session = Depends(get_db)):
     }
 
 
-# ── Health ─────────────────────────────────────────────────────────
+# ── Health & Pipeline ──────────────────────────────────────────────
+@router.post("/pipeline/run")
+async def trigger_pipeline(max_items: int = 5):
+    """Manually trigger one NSE/BSE ingestion -> extraction -> summarization cycle."""
+    from app.pipeline import run_pipeline
+    result = await run_pipeline(max_items=max_items)
+    return {"status": "completed", **result}
+
+
 @router.get("/health")
 def health():
     return {"status": "healthy", "service": "Finosauras Intelligence"}

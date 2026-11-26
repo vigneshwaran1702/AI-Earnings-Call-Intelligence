@@ -1,6 +1,6 @@
-import { Activity, RefreshCw } from "lucide-react";
+import { Activity, RefreshCw, Play } from "lucide-react";
 
-export default function Navbar({ apiOnline, wsStatus, onRefresh }) {
+export default function Navbar({ apiOnline, wsStatus, onRefresh, onRunPipeline, runningPipeline }) {
   return (
     <header className="h-16 border-b border-slate-800/80 bg-slate-900/70 backdrop-blur px-6 flex items-center justify-between">
       <div>
@@ -36,6 +36,17 @@ export default function Navbar({ apiOnline, wsStatus, onRefresh }) {
             Pipeline: {wsStatus}
           </span>
         </div>
+
+        {onRunPipeline && (
+          <button
+            onClick={onRunPipeline}
+            disabled={runningPipeline}
+            className="inline-flex items-center gap-1.5 rounded-lg bg-emerald-500 hover:bg-emerald-400 disabled:opacity-50 px-3 py-1.5 text-xs font-semibold text-slate-950 transition cursor-pointer"
+          >
+            <Play className="h-3.5 w-3.5" />
+            {runningPipeline ? "Scanning..." : "Scan Filings"}
+          </button>
+        )}
 
         {onRefresh && (
           <button

@@ -1,21 +1,35 @@
 from contextlib import asynccontextmanager
+from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from app.config import POLL_INTERVAL_MINUTES
 from app.database import init_db
 from app.api.routes import router as api_router
 from app.api.websocket import router as ws_router
+from app.pipeline import run_pipeline
+
+scheduler = AsyncIOScheduler()
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # ── Startup ────────────────────────────────────────────────────
     init_db()
-    print("\n✦  Finosauras Intelligence — database initialized")
+    scheduler.add_job(
+        run_pipeline,
+        "interval",
+        minutes=POLL_INTERVAL_MINUTES,
+        id="concall_watcher",
+        replace_existing=True,
+    )
+    scheduler.start()
+    print(f"\n✦  Finosauras Intelligence — database initialized (auto-poll every {POLL_INTERVAL_MINUTES}m)")
     print("✦  Docs:  http://127.0.0.1:8000/docs")
     print("✦  API:   http://127.0.0.1:8000/api/companies\n")
     yield
     # ── Shutdown ───────────────────────────────────────────────────
+    scheduler.shutdown(wait=False)
     print("\n✦  Finosauras API shutting down\n")
 
 
@@ -58,8 +72,8 @@ def root():
             "companies":    "/api/companies",
             "transcripts":  "/api/transcripts",
             "stats":        "/api/stats",
+            "pipeline_run": "/api/pipeline/run",
             "health":       "/api/health",
             "websocket":    "ws://127.0.0.1:8000/ws/pipeline",
         },
     }
-

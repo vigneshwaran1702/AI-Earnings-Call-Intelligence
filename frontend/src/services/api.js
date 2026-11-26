@@ -36,5 +36,10 @@ export function getTranscriptPdfUrl(id) {
   return `/api/transcripts/${id}/pdf`;
 }
 
+export async function triggerPipeline(maxItems = 5) {
+  const { data } = await api.post(`/pipeline/run?max_items=${maxItems}`);
+  return data;
+}
+
 export default api;
 
