@@ -6,28 +6,37 @@ __pycache__/
 *.pyo
 .pytest_cache/
 
-# Environment & API Keys
+# Environment & API Keys / Secrets
 .env
 .env.*
 !.env.example
 !backend/.env.example
 *.key
 *.pem
+*.secret
+secrets/
+credentials.json
+*api_key*
 
 # Database
 *.db
 *.sqlite
 *.sqlite3
 
-# Node / Frontend
+# Node / Frontend generated files
 node_modules/
 frontend/node_modules/
 dist/
 frontend/dist/
 .vite/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 npm-debug.log*
 yarn-debug.log*
 pnpm-debug.log*
+.eslintcache
+*.tsbuildinfo
 
 # Logs & OS
 *.log
